@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            margin: auto;
+        }
+        table td, th{
+          /*  border: 2px solid rgb(230, 163, 8);*/
+        }
+        td,th{
+            border-bottom: 2px solid red;
+            padding: 10px;
+        }
+        td,th{
+            border-bottom: 2px solid rgb(255, 0, 60);
+            padding: 10px;
+        }
+        td{
+            text-align: center;
+        }
+        tr:nth-of-type(add){
+            background-color: chocolate;
+        }
+        tr:last-child{
+            border-bottom:solid rgb(255, 0, 51);
+        }
+
+        ul{
+            list-style-type:circle;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Skill </th>
+            <th>Class</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tony </td>
+                <td>Stark</td>
+                <td>Architrcher</td>
+                <td>MIT</td>
+            </tr>
+            <tr>
+                <td>Piter </td>
+                <td>packer</td>
+                <td>Student</td>
+                <td>MIT</td>
+            </tr>
+            <tr>
+                <td>Thor </td>
+                
+                <td>Odin</td>
+                <td>lighting</td>
+                <td>Aegad</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Author : by anonymos</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <!--* orderList--*/-->
+    <h3>Unorder list</h3>
+    <ul>
+        <li>Iteam</li>
+        <li>Iteam</li>
+        <li>Iteam</li>
+        <li>Iteam</li>
+    </ul>
+    <h3>Order list</h3>
+    <ol>
+        <li>Iteam</li>
+        <li>Iteam</li>
+        <li>Iteam</li>
+        <li>Iteam</li>
+    </ol>
+    <h3>Defintion list</h3>
+    <dl>
+        <dt>
+            JVM
+        </dt>
+    </dl>
+
+</body>
+</html>
