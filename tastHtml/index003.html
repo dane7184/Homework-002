@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute selector</title>
+
+    <style>
+        [title ="cambodia"]{
+            color: chartreuse;
+            font-size: 25px;
+        }
+        a[href ~="www"]{
+            color: blueviolet;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <h2 title="developer" class="developer">We are cambodia Developer</h2>
+    <h2 class="programer">We are cambodia programer</h2>
+    <h2 class="supporter">We are cambodia programer</h2>
+    <a href="www.istad.io">Click</a>
+</body>
+</html>
